@@ -11,7 +11,7 @@
 <body>
 <div class="site-shell">
   <header class="topbar">
-    <div class="brand"><div class="mark">E<span>↗</span></div><div><div class="brand-name">EDGEFINDER <span>/ SWING LAB</span></div><div class="brand-sub">Market-close intelligence · 3–10 trading day opportunities</div></div></div>
+    <div class="brand"><div class="mark">E<span>↗</span></div><div><div class="brand-name">EDGEFINDER <span>/ SWING LAB</span></div><div class="brand-sub">Market-close intelligence · 2–10 trading day opportunities</div></div></div>
     <div class="top-actions"><span class="data-pill" id="dataPill"><i></i> Awaiting data</span><button class="button primary" id="refreshBtn">↻ Refresh scan</button></div>
   </header>
 
@@ -50,7 +50,7 @@
       <p>Factor weights: <b>Trend 25 · Momentum 20 · Relative strength 20 · Volume / closing pressure 15 · Structure 10 · Risk 10.</b></p>
       <p>A confirmed trade also requires: aligned 20/50/200 EMAs, positive directional 20-day return, stronger/weaker performance than SPY, matching SPY regime, breakout close, relative volume ≥1.1×, risk ≤10%, and non-stretched RSI. Mixed SPY regime blocks new triggers.</p>
       <div class="rule"></div>
-      <button class="button primary" id="backtestBtn">Run historical test</button><div id="backtestResult" class="test-result">After a scan is loaded, run the test on available historical daily bars. Signal at close, next-session open entry, 2R/stop/10-session exit. Test is illustrative, not live-validated.</div>
+      <button class="button primary" id="backtestBtn">Run historical test</button><div id="backtestResult" class="test-result">After a scan is loaded, run the test on available historical daily bars. Signal at close, next-session open entry, 2R/stop/10-session exit. Test is illustrative, not live-validated. Holds beyond 10 sessions, up to 2–3 weeks, require a separate discretionary review and are not modeled in this test.</div>
       <div class="rule"></div><details><summary>Data coverage &amp; limitations</summary><p>Signals use adjusted historical daily OHLCV from an unofficial provider. Some symbols may be missing, especially recent listings and macro series. Historical results omit slippage, commissions, borrowing costs and overlapping-position capital limits. All exits use daily OHLC, with stop prioritized if stop and target hit on the same session. The strategy has not been independently validated for profitability.</p><p>For new permanent symbols, edit <code>config/watchlist.json</code> in the GitHub repository and run the workflow. Personal browser filters do not modify the server universe.</p></details>
     </div></article>
   </section>
