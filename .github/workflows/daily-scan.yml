@@ -1,0 +1,73 @@
+name: EDGEFINDER after-close daily scan
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'styles.css'
+      - 'config/**'
+      - 'scripts/**'
+      - 'requirements.txt'
+      - '.github/workflows/**'
+  workflow_dispatch:
+  schedule:
+    - cron: '40 17 * * 1-5'
+      timezone: 'America/New_York'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: edgefinder-pages
+  cancel-in-progress: false
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Validate extraction and UI
+        run: |
+          python tests/test_backend.py
+          node tests/test_frontend.cjs
+      - name: Refresh after-close daily bars
+        id: scan
+        run: python scripts/update_data.py
+        continue-on-error: true # Retain and deploy the last good EOD snapshot on feed failure
+      - name: Commit new market snapshot when changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/market.json data/scan-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily EDGEFINDER scan $(date -u +%F)"
+            git push
+          fi
+      - name: Stage public website files only
+        run: |
+          mkdir -p public/data
+          cp index.html app.js styles.css .nojekyll public/
+          cp data/*.json public/data/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+      - name: Validate populated snapshot
+        if: steps.scan.outcome == 'success'
+        run: node tests/test_frontend.cjs
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report data collection failure after publishing warning
+        if: steps.scan.outcome == 'failure'
+        run: |
+          echo 'Market scan failed. Published last good snapshot and visible failure status.'
+          exit 1
