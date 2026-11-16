@@ -7,6 +7,7 @@
   <meta name="description" content="EDGEFINDER: after-close swing-trade candidate research dashboard for long and short setups.">
   <title>EDGEFINDER | Swing Scanner</title>
   <link rel="stylesheet" href="styles.css?v=20261116-2">
+<link rel="stylesheet" href="history.css?v=1">
 </head>
 <body>
 <div class="site-shell">
@@ -54,8 +55,20 @@
       <div class="rule"></div><details><summary>Data coverage &amp; limitations</summary><p>Signals use adjusted historical daily OHLCV from an unofficial provider. Some symbols may be missing, especially recent listings and macro series. Historical results omit slippage, commissions, borrowing costs and overlapping-position capital limits. All exits use daily OHLC, with stop prioritized if stop and target hit on the same session. The strategy has not been independently validated for profitability.</p><p>For new permanent symbols, edit <code>config/watchlist.json</code> in the GitHub repository and run the workflow. Personal browser filters do not modify the server universe.</p></details>
     </div></article>
   </section>
-  <footer><span>EDGEFINDER / SWING LAB</span> For research and paper trading only. Not investment advice. This site does not connect to a brokerage or execute trades. <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView charts ↗</a></footer>
+  <section class="history-panel" id="signal-history" aria-label="Signal history tracker">
+<div class="section-head"><div><div class="eyebrow">FORWARD SIGNAL JOURNAL</div><h2>Signal history <span class="microtag">2 / 5 / 10 SESSIONS</span></h2></div><button class="button subtle" id="historyCsv">Download history CSV</button></div>
+<p class="history-status" id="historyStatus" role="status">Loading recorded signals…</p>
+<div class="history-stats" id="historyStats"></div>
+<p class="history-note">Summary statistics include only confirmed TRIGGER observations recorded on their signal day, under the current scoring version. Pending outcomes, late snapshots, and SETUP/WATCH candidates are excluded. Each ticker and direction is logged once per session; repeated daily observations can overlap and are not independent trades.</p>
+<div class="filters"><label>History ticker <input id="historySearch" type="search" placeholder="Ticker…" autocomplete="off"></label><label>Direction <select id="historySide"><option value="all">Both directions</option><option value="LONG">LONG</option><option value="SHORT">SHORT</option></select></label><label>Signal type <select id="historyState"><option value="all">All observations (75+)</option><option value="TRIGGER">Confirmed TRIGGER</option><option value="SETUP">SETUP candidates</option><option value="WATCH">WATCH candidates</option></select></label></div>
+<div class="trade-panel"><div class="table-scroll"><table class="history-table"><thead><tr><th>Signal session</th><th>Stock / side</th><th>Captured signal</th><th>Planned entry</th><th>Stop</th><th>2R target</th><th>Next open</th><th>2 sessions</th><th>5 sessions</th><th>10 sessions</th></tr></thead><tbody id="historyRows"></tbody></table></div></div>
+<div class="history-pagination"><span id="historyPage"></span><button class="button subtle" id="historyPrev">Previous history page</button><button class="button subtle" id="historyNext">Next history page</button></div>
+<p class="history-warning" id="historyWarnings"></p>
+<p class="history-note">Outcomes measure signed price returns from the next trading session’s open to the 2nd, 5th and 10th session closes. Positive is favorable for the recorded direction. Entry/stop/target are frozen screening levels; these measurements do not apply stop or target exits. Daily adjusted data is normalized to the signal’s price basis. No brokerage fills, costs, borrow fees, position sizing, or portfolio P&amp;L are modeled. History starts when this tracker is installed; no past winners are backfilled. Future results require future completed sessions.</p>
+</section>
+<footer><span>EDGEFINDER / SWING LAB</span> For research and paper trading only. Not investment advice. This site does not connect to a brokerage or execute trades. <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView charts ↗</a></footer>
 </div>
 <script src="app.js?v=20261116-2" defer></script>
+<script src="history.js?v=1" defer></script>
 </body>
 </html>
