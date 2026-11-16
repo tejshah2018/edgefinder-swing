@@ -2329,7 +2329,7 @@
       "date": "2026-11-16",
       "model_hash": "34a25d49cde7",
       "first_recorded_at": "2026-11-16T22:58:38.581Z",
-      "last_recorded_at": "2026-11-16T22:58:38.581Z",
+      "last_recorded_at": "2026-11-16T23:24:48.664Z",
       "downloaded": 117,
       "requested": 120,
       "missing_symbols": [
@@ -2344,7 +2344,7 @@
       "signals_recorded": 31
     }
   ],
-  "updated_at": "2026-11-16T22:58:38.581Z",
+  "updated_at": "2026-11-16T23:24:48.664Z",
   "last_scan_session": "2026-11-16",
   "model_hash": "34a25d49cde7",
   "horizons": [
