@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111c">
+  <meta name="description" content="EDGEFINDER: after-close swing-trade candidate research dashboard for long and short setups.">
+  <title>EDGEFINDER | Swing Scanner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="site-shell">
+  <header class="topbar">
+    <div class="brand"><div class="mark">E<span>↗</span></div><div><div class="brand-name">EDGEFINDER <span>/ SWING LAB</span></div><div class="brand-sub">Market-close intelligence · 3–10 trading day opportunities</div></div></div>
+    <div class="top-actions"><span class="data-pill" id="dataPill"><i></i> Awaiting data</span><button class="button primary" id="refreshBtn">↻ Refresh scan</button></div>
+  </header>
+
+  <div class="snapshot-status" id="dataStatus" role="status"><span class="status-icon">●</span> The daily data snapshot will appear after the first scheduled scan.</div>
+
+  <section class="eyebrow-section"><div><div class="eyebrow">MARKET COMMAND CENTER</div><h1>After the bell. <em>Before the move.</em></h1><p class="subtitle">Independent trend, relative strength, volume-pressure and breakout scoring. No intraday noise.</p></div><div class="asof"><div class="eyebrow">LATEST COMPLETED SESSION</div><strong id="asOf">—</strong><small id="generatedAt">Scan not published yet</small></div></section>
+
+  <section class="macro-grid" aria-label="Market regimes and risk indicators">
+    <article class="macro-card" id="spyCard"><div class="macro-label">SPY <span>Broad market</span></div><div class="skeleton-text">Waiting for daily scan</div></article>
+    <article class="macro-card" id="qqqCard"><div class="macro-label">QQQ <span>Growth / tech</span></div><div class="skeleton-text">Waiting for daily scan</div></article>
+    <article class="macro-card" id="vixCard"><div class="macro-label">VIX <span>Volatility</span></div><div class="skeleton-text">Waiting for daily scan</div></article>
+    <article class="macro-card" id="vvixCard"><div class="macro-label">VVIX <span>Vol-of-vol</span></div><div class="skeleton-text">Waiting for daily scan</div></article>
+    <article class="macro-card" id="dxyCard"><div class="macro-label">DXY <span>US dollar</span></div><div class="skeleton-text">Waiting for daily scan</div></article>
+  </section>
+
+  <section class="kpi-grid" aria-label="Scan summary">
+    <div class="kpi"><span class="kpi-label">Stocks analyzed</span><div><strong id="kScreened">—</strong><small id="kCoverage">of 104 configured</small></div></div>
+    <div class="kpi"><span class="kpi-label">Actionable long triggers</span><div><strong class="green" id="kLong">—</strong><small>Confirmed at close</small></div></div>
+    <div class="kpi"><span class="kpi-label">Actionable short triggers</span><div><strong class="red" id="kShort">—</strong><small>Confirmed at close</small></div></div>
+    <div class="kpi"><span class="kpi-label">Breakouts approaching</span><div><strong id="kSetups">—</strong><small>Near trigger levels</small></div></div>
+  </section>
+
+  <section class="section" aria-label="Swing trade candidate lists">
+    <div class="section-head"><div><span class="eyebrow">SIGNAL DISCOVERY</span><h2>Ranked trade candidates <span class="microtag">EOD ONLY</span></h2><p class="section-sub">A high score is a research candidate, not a trade. Only <b>TRIGGER</b> passes every entry gate.</p></div><button class="button subtle" id="copyBtn">Copy top picks</button></div>
+    <div class="filters"><label>Search <input id="search" type="search" placeholder="Ticker…" autocomplete="off"></label><label>Signal status <select id="statusFilter"><option value="all">All statuses</option><option value="TRIGGER">Confirmed triggers</option><option value="SETUP">Near breakout</option><option value="WATCH">Watch</option><option value="AVOID">Other / avoid</option><option value="UNVERIFIED">Unverified</option></select></label><label>Minimum score <select id="scoreFilter"><option value="0">Any score</option><option value="65">65+</option><option value="75" selected>75+</option><option value="85">85+</option></select></label><button class="button subtle" id="exportBtn">Download CSV</button></div>
+    <div class="split-list">
+      <article class="trade-panel"><header><div class="list-heading"><span class="side-mark greenbg">↗</span><div><h3>LONG SETUPS</h3><p>Strength, accumulation and upside levels</p></div></div><span class="count-chip" id="longCount">0 stocks</span></header><div class="table-scroll"><table><thead><tr><th>Stock / sector</th><th>Score / prev</th><th>State</th><th>Flow proxy</th><th>20D RS</th><th>Day</th><th>Since trigger</th><th>Entry</th></tr></thead><tbody id="longRows"><tr><td colspan="8" class="empty">Waiting for daily market data.</td></tr></tbody></table></div></article>
+      <article class="trade-panel"><header><div class="list-heading"><span class="side-mark redbg">↘</span><div><h3>SHORT SETUPS</h3><p>Weakness, distribution and downside levels</p></div></div><span class="count-chip" id="shortCount">0 stocks</span></header><div class="table-scroll"><table><thead><tr><th>Stock / sector</th><th>Score / prev</th><th>State</th><th>Flow proxy</th><th>20D RS</th><th>Day</th><th>Since trigger</th><th>Entry</th></tr></thead><tbody id="shortRows"><tr><td colspan="8" class="empty">Waiting for daily market data.</td></tr></tbody></table></div></article>
+    </div>
+    <p class="under-table">RS = 20-session performance difference vs SPY. Flow = 20-session Chaikin Money Flow (price/volume proxy, <b>not</b> measured institutional fund flow). "Since trigger" is raw price change since the last confirmed close; green short performance corresponds to a falling price. Rows without a recent confirmed trigger show —.</p>
+  </section>
+
+  <section class="lower-grid">
+    <article class="trade-panel detail-panel"><header><div><span class="eyebrow">SETUP INSPECTOR</span><h3 id="detailTitle">Choose a stock from either table</h3></div><span class="count-chip" id="detailState">No selection</span></header><div class="detail-area" id="detailBody"><div class="empty roomy">View the specific trend score, breakout level, protective stop, 2R target, sector relative strength and reasons for or against the setup.</div></div></article>
+    <article class="trade-panel model-panel"><header><div><span class="eyebrow">RESEARCH MODEL</span><h3>Edge checklist + historical test</h3></div><span class="count-chip">EOD / 10 bars</span></header><div class="model-content">
+      <p>Factor weights: <b>Trend 25 · Momentum 20 · Relative strength 20 · Volume / closing pressure 15 · Structure 10 · Risk 10.</b></p>
+      <p>A confirmed trade also requires: aligned 20/50/200 EMAs, positive directional 20-day return, stronger/weaker performance than SPY, matching SPY regime, breakout close, relative volume ≥1.1×, risk ≤10%, and non-stretched RSI. Mixed SPY regime blocks new triggers.</p>
+      <div class="rule"></div>
+      <button class="button primary" id="backtestBtn">Run historical test</button><div id="backtestResult" class="test-result">After a scan is loaded, run the test on available historical daily bars. Signal at close, next-session open entry, 2R/stop/10-session exit. Test is illustrative, not live-validated.</div>
+      <div class="rule"></div><details><summary>Data coverage &amp; limitations</summary><p>Signals use adjusted historical daily OHLCV from an unofficial provider. Some symbols may be missing, especially recent listings and macro series. Historical results omit slippage, commissions, borrowing costs and overlapping-position capital limits. All exits use daily OHLC, with stop prioritized if stop and target hit on the same session. The strategy has not been independently validated for profitability.</p><p>For new permanent symbols, edit <code>config/watchlist.json</code> in the GitHub repository and run the workflow. Personal browser filters do not modify the server universe.</p></details>
+    </div></article>
+  </section>
+  <footer><span>EDGEFINDER / SWING LAB</span> For research and paper trading only. Not investment advice. This site does not connect to a brokerage or execute trades. <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView charts ↗</a></footer>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
