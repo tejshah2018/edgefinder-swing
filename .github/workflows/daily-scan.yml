@@ -39,15 +39,23 @@ jobs:
         run: |
           python tests/test_backend.py
           node tests/test_frontend.cjs
+          node tests/test_history.cjs
       - name: Refresh after-close daily bars
         id: scan
         run: python scripts/update_data.py
         continue-on-error: true # Retain and deploy the last good EOD snapshot on feed failure
+      - name: Record signals and update forward outcomes
+        id: history
+        if: steps.scan.outcome == 'success'
+        run: |
+          node scripts/update_history.cjs
+          node tests/test_history_ui.cjs
+        continue-on-error: true
       - name: Commit new market snapshot when changed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/market.json data/scan-status.json
+          git add data/*.json
           if ! git diff --cached --quiet; then
             git commit -m "Daily EDGEFINDER scan $(date -u +%F)"
             git push
@@ -55,7 +63,7 @@ jobs:
       - name: Stage public website files only
         run: |
           mkdir -p public/data
-          cp index.html app.js styles.css .nojekyll public/
+          cp index.html app.js styles.css history.js history.css .nojekyll public/
           cp data/*.json public/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
@@ -67,7 +75,7 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
       - name: Report data collection failure after publishing warning
-        if: steps.scan.outcome == 'failure'
+        if: steps.scan.outcome == 'failure' || steps.history.outcome == 'failure'
         run: |
-          echo 'Market scan failed. Published last good snapshot and visible failure status.'
+          echo 'Data scan or signal-history update failed. Published last good data with status warnings.'
           exit 1
