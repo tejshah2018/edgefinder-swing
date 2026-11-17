@@ -6,6 +6,8 @@ on:
       - 'index.html'
       - 'app.js'
       - 'styles.css'
+      - 'rotation.js'
+      - 'tests/**'
       - 'config/**'
       - 'scripts/**'
       - 'requirements.txt'
@@ -40,6 +42,7 @@ jobs:
           python tests/test_backend.py
           node tests/test_frontend.cjs
           node tests/test_history.cjs
+          node tests/test_rotation.cjs
       - name: Refresh after-close daily bars
         id: scan
         run: python scripts/update_data.py
@@ -63,7 +66,7 @@ jobs:
       - name: Stage public website files only
         run: |
           mkdir -p public/data
-          cp index.html app.js styles.css history.js history.css .nojekyll public/
+          cp index.html app.js rotation.js styles.css history.js history.css .nojekyll public/
           cp data/*.json public/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
