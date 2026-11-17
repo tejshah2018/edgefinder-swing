@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#07111c">
   <meta name="description" content="EDGEFINDER: after-close swing-trade candidate research dashboard for long and short setups.">
   <title>EDGEFINDER | Swing Scanner</title>
-  <link rel="stylesheet" href="styles.css?v=20261116-2">
+  <link rel="stylesheet" href="styles.css?v=20261116-rotation1">
 <link rel="stylesheet" href="history.css?v=1">
 </head>
 <body>
@@ -34,6 +34,18 @@
     <div class="kpi"><span class="kpi-label">Actionable short triggers</span><div><strong class="red" id="kShort">—</strong><small>Confirmed at close</small></div></div>
     <div class="kpi"><span class="kpi-label">Breakouts approaching</span><div><strong id="kSetups">—</strong><small>Near trigger levels</small></div></div>
   </section>
+
+
+<section class="section rotation-section" aria-label="Sector rotation and money flow">
+<div class="section-head"><div><span class="eyebrow">SECTOR & STYLE INTELLIGENCE</span><h2>Sector rotation and money flow</h2><p class="section-sub">Relative strength against SPY: right is stronger, up is gaining momentum. Eight weekly points trace the path through improving, leading, weakening and lagging.</p></div></div>
+<div class="rotation-summary" id="rotationSummary"></div>
+<div class="filters"><label>Fund universe<select id="rotationFilter"><option value="sector">Sectors</option><option value="style">Style and size</option><option value="all">All</option></select></label><button class="button subtle" id="rotationClear">Clear highlight</button></div>
+<p class="under-table" id="rotationCoverage" role="status">Waiting for daily market data.</p>
+<div class="trade-panel rotation-chart" id="rotationChart"></div>
+<p class="under-table">Select a ticker in the table to highlight its trail. Large dots mark the latest reading; hover over dots for dates and values. Clockwise rotation is a useful pattern, not a rule: funds can reverse or skip zones.</p>
+<div class="trade-panel"><div class="table-scroll"><table class="rotation-table"><thead><tr><th>ETF</th><th>Tracks</th><th>Money flow proxy</th><th>Zone now</th><th>4 weeks ago</th><th>Flow score (20D)</th><th>Dollar pressure (20D, proxy)</th><th>Price</th><th>Today</th><th>1 month</th><th>vs SPY, 1 month</th><th>3 months</th><th>YTD</th></tr></thead><tbody id="rotationRows"></tbody></table></div></div>
+<details class="rotation-method"><summary>How rotation and flow are calculated</summary><p>This is a transparent relative-strength chart, not proprietary JdK RRG. Weekly ETF/SPY adjusted-close ratios are compared with their trailing 13-week average: x = 100 × (ratio / average − 1). Momentum (y) is the four-week change in x. The current partial week is included; the earlier zone is four weekly observations back.</p><p>Flow score is 20-session Chaikin Money Flow: sum of [(2 × close − high − low) / (high − low)] × volume, divided by volume. A zero-range day contributes zero pressure. Buying pressure begins at +0.05; selling pressure begins at −0.05. Negative flow with positive relative trend is labeled selling into strength.</p><p>Dollar pressure sums that multiplier × volume × adjusted close over 20 sessions. It is a signed trading-pressure estimate, NOT actual ETF inflows, outflows, creations or redemptions. It is not comparable to reported fund-flow dollars. No actual net-flow dataset is connected.</p><p>One month = 21 aligned trading sessions; three months = 63. Relative return is ETF return minus SPY return in percentage points. YTD uses the final available prior-year close. Adjusted prices include provider corporate-action/distribution adjustments. Missing or stale funds are excluded from the chart and summaries.</p></details>
+</section>
 
   <section class="section" aria-label="Swing trade candidate lists">
     <div class="section-head"><div><span class="eyebrow">SIGNAL DISCOVERY</span><h2>Ranked trade candidates <span class="microtag">EOD ONLY</span></h2><p class="section-sub">A high score is a research candidate, not a trade. Only <b>TRIGGER</b> passes every entry gate.</p></div><button class="button subtle" id="copyBtn">Copy top picks</button></div>
@@ -68,7 +80,8 @@
 </section>
 <footer><span>EDGEFINDER / SWING LAB</span> For research and paper trading only. Not investment advice. This site does not connect to a brokerage or execute trades. <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView charts ↗</a></footer>
 </div>
-<script src="app.js?v=20261116-2" defer></script>
+<script src="app.js?v=20261116-rotation1" defer></script>
+<script src="rotation.js?v=1" defer></script>
 <script src="history.js?v=1" defer></script>
 </body>
 </html>

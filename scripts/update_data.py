@@ -19,7 +19,8 @@ import exchange_calendars as xcals
 ROOT = Path(__file__).resolve().parents[1]
 WATCH = json.loads((ROOT / 'config/watchlist.json').read_text())
 BENCHMARKS = ['SPY','QQQ','SMH','XLK','XLF','XLY','XLC','XLV','XLE','XLP','XLI','XLB','XLU','XLRE','^VIX','^VVIX','DX-Y.NYB']
-SYMBOLS = list(dict.fromkeys(BENCHMARKS + WATCH))
+ROTATION_FUNDS = ['XLG','MTUM','MAGS','IWM','IWF','IWD','RSP']
+SYMBOLS = list(dict.fromkeys(BENCHMARKS + WATCH + ROTATION_FUNDS))
 OUTPUT = ROOT / 'data/market.json'
 MIN_BARS = 210
 

@@ -187,7 +187,7 @@ function renderDetail(){
     <div class="rule"></div><div class="eyebrow">SIX-FACTOR QUALITY BREAKDOWN</div><div class="factor-grid">${Object.entries(r.comps).map(([k,v])=>`<div class="factor-row"><div class="factor-label"><span>${esc(k)}</span><strong>${v}/${maxes[k]}</strong></div><div class="factor-bar"><i style="width:${Math.round(100*v/maxes[k])}%"></i></div></div>`).join('')}</div><div class="rule"></div><div class="eyebrow">GATES & CONFLICTS</div><ul class="detail-reasons">${r.reasons.map(x=>'<li>'+esc(x)+'</li>').join('')}</ul>
     <p class="test-result">${r.status==='TRIGGER'?'Confirmed close-level signal. Entry, stop and target are screening levels only — no order is placed.':r.status==='UNVERIFIED'?'Unverified: SPY data missing or bar not synchronized. No trade signal can be confirmed.':'Not a confirmed trade. Use the setup as a watchlist candidate, not an entry instruction.'}</p>`;
 }
-function render(){renderHeader();renderMacro();renderTables();renderDetail();}
+function render(){renderHeader();renderMacro();renderTables();renderDetail();if(typeof window!=='undefined' && window.renderRotation)window.renderRotation();}
 async function loadSnapshot(){
   if(loading)return;
   loading=true;
