@@ -3,6 +3,2671 @@
   "started_at": "2026-11-16T20:20:34.195Z",
   "signals": [
     {
+      "id": "2026-11-20:NFLX:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "NFLX",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 96,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 56.73,
+      "planned_entry": 58.12182,
+      "planned_stop": 62.98,
+      "planned_target": 48.405460000000005,
+      "regime": "MIXED",
+      "rs": -4.617718531256465,
+      "relative_volume": 1.6566531489853107,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:DASH:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "DASH",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 93,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 152.60001,
+      "planned_entry": 156.69315999,
+      "planned_stop": 172.78342125201203,
+      "planned_target": 124.51263746597593,
+      "regime": "MIXED",
+      "rs": -5.697255221922948,
+      "relative_volume": 1.494779369110965,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:GOOGL:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "GOOGL",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 93,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 265.29001,
+      "planned_entry": 272.08763001,
+      "planned_stop": 295.42999,
+      "planned_target": 225.40291003000004,
+      "regime": "MIXED",
+      "rs": -7.919299002428881,
+      "relative_volume": 1.2667286844397558,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:GS:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "GS",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 92,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 790.69,
+      "planned_entry": 843.04611999,
+      "planned_stop": 908.98999,
+      "planned_target": 711.1583799699998,
+      "regime": "MIXED",
+      "rs": -0.4736594050291587,
+      "relative_volume": 2.0712408759508825,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 16,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:LUNR:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "LUNR",
+      "side": "SHORT",
+      "status": "SETUP",
+      "score": 92,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 8.775,
+      "planned_entry": 8.80119,
+      "planned_stop": 12.6,
+      "planned_target": 1.203570000000001,
+      "regime": "MIXED",
+      "rs": -7.3555126883885436,
+      "relative_volume": 1.1304478313151054,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:NKE:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "NKE",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 92,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 32.92,
+      "planned_entry": 34.025940000000006,
+      "planned_stop": 40.68,
+      "planned_target": 20.717820000000017,
+      "regime": "MIXED",
+      "rs": -2.510687562750158,
+      "relative_volume": 1.3121223219423421,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 16,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:RKLB:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "RKLB",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 92,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 45.42,
+      "planned_entry": 46.46349,
+      "planned_stop": 61.895,
+      "planned_target": 15.600469999999994,
+      "regime": "MIXED",
+      "rs": -4.4182503309741055,
+      "relative_volume": 1.1249031985185538,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:ARM:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "ARM",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 91,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 152.2,
+      "planned_entry": 169.44039,
+      "planned_stop": 198.64418473641024,
+      "planned_target": 111.03280052717955,
+      "regime": "MIXED",
+      "rs": -18.405582206160652,
+      "relative_volume": 1.6961111404276064,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:ASTS:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "ASTS",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 91,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 23.27,
+      "planned_entry": 25.13484,
+      "planned_stop": 32.04,
+      "planned_target": 11.324520000000003,
+      "regime": "MIXED",
+      "rs": -32.28602955593557,
+      "relative_volume": 1.3018247744747231,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:BA:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "BA",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 91,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 155.89,
+      "planned_entry": 158.76108,
+      "planned_stop": 170.5,
+      "planned_target": 135.28323999999998,
+      "regime": "MIXED",
+      "rs": -8.001937719752627,
+      "relative_volume": 1.0293111841382523,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 10,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:EOSE:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "EOSE",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 91,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 1.19,
+      "planned_entry": 1.3486500000000001,
+      "planned_stop": 1.89,
+      "planned_target": 0.2659500000000006,
+      "regime": "MIXED",
+      "rs": -21.981933049275614,
+      "relative_volume": 1.4322722309331217,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:QBTS:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "QBTS",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 91,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 6.52,
+      "planned_entry": 7.25274,
+      "planned_stop": 9.27,
+      "planned_target": 3.2182200000000014,
+      "regime": "MIXED",
+      "rs": -34.85039297848371,
+      "relative_volume": 1.4299561623303023,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:RGTI:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "RGTI",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 91,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 7.16,
+      "planned_entry": 8.02197,
+      "planned_stop": 9.787885987221042,
+      "planned_target": 4.490138025557915,
+      "regime": "MIXED",
+      "rs": -28.61528243912789,
+      "relative_volume": 1.4097074852035314,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:SOXL:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "SOXL",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 91,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 30.88,
+      "planned_entry": 43.3566,
+      "planned_stop": 64.93923463939248,
+      "planned_target": 0.19133072121503858,
+      "regime": "MIXED",
+      "rs": -53.81257912547437,
+      "relative_volume": 2.3136284674970375,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:AFRM:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "AFRM",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 90,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 54,
+      "planned_entry": 56.398545,
+      "planned_stop": 64.3,
+      "planned_target": 40.595635,
+      "regime": "MIXED",
+      "rs": -13.713265696357723,
+      "relative_volume": 1.1946064661002556,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:CAT:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "CAT",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 90,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 510.45001,
+      "planned_entry": 534.99449997,
+      "planned_stop": 592,
+      "planned_target": 420.98349991,
+      "regime": "MIXED",
+      "rs": -16.290039585713757,
+      "relative_volume": 1.2388584184825624,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:SOFI:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "SOFI",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 90,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 12.48,
+      "planned_entry": 13.50648,
+      "planned_stop": 15.24,
+      "planned_target": 10.039439999999999,
+      "regime": "MIXED",
+      "rs": -5.376339382146855,
+      "relative_volume": 1.2727465015684494,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:KLAC:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "KLAC",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 89,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 126.87,
+      "planned_entry": 135.31970484,
+      "planned_stop": 152.90743960592624,
+      "planned_target": 100.14423530814756,
+      "regime": "MIXED",
+      "rs": -3.5062967988361837,
+      "relative_volume": 1.5141104634738136,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 12,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:MELI:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "MELI",
+      "side": "SHORT",
+      "status": "SETUP",
+      "score": 89,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 1355,
+      "planned_entry": 1346.43224997,
+      "planned_stop": 1494.77002,
+      "planned_target": 1049.75670991,
+      "regime": "MIXED",
+      "rs": -15.91238609990624,
+      "relative_volume": 1.5379044570916047,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:ADBE:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "ADBE",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 88,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 217.71001,
+      "planned_entry": 219.58020000000002,
+      "planned_stop": 251.34,
+      "planned_target": 156.06060000000005,
+      "regime": "MIXED",
+      "rs": -8.245885344726723,
+      "relative_volume": 1.3705928695520162,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 12,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:IONQ:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "IONQ",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 88,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 20.72,
+      "planned_entry": 22.59738,
+      "planned_stop": 27.86,
+      "planned_target": 12.072140000000005,
+      "regime": "MIXED",
+      "rs": -24.506467636157346,
+      "relative_volume": 1.2748802461549023,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:BMNR:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "BMNR",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 87,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 12.98,
+      "planned_entry": 15.01497,
+      "planned_stop": 17.675613588946874,
+      "planned_target": 9.693682822106252,
+      "regime": "MIXED",
+      "rs": -32.82163164547709,
+      "relative_volume": 1.7459271163776462,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 12,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:ORCL:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "ORCL",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 87,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 101.19,
+      "planned_entry": 109.10078999999999,
+      "planned_stop": 123.38584062239042,
+      "planned_target": 80.53068875521913,
+      "regime": "MIXED",
+      "rs": -10.560387420456706,
+      "relative_volume": 1.1220189978625155,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 17,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:AXON:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "AXON",
+      "side": "SHORT",
+      "status": "SETUP",
+      "score": 86,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 291.14001,
+      "planned_entry": 290.81888001,
+      "planned_stop": 330.9542213666433,
+      "planned_target": 210.54819729671334,
+      "regime": "MIXED",
+      "rs": -21.51002324947221,
+      "relative_volume": 1.212239436131017,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 6,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:HIMS:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "HIMS",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 86,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 14.6,
+      "planned_entry": 15.96402,
+      "planned_stop": 19.382070785520977,
+      "planned_target": 9.127918428958045,
+      "regime": "MIXED",
+      "rs": -38.07950013029434,
+      "relative_volume": 0.9872615130892098,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 10,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:OKLO:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "OKLO",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 86,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 19.85,
+      "planned_entry": 20.759220000000003,
+      "planned_stop": 24.722498268848913,
+      "planned_target": 12.832663462302182,
+      "regime": "MIXED",
+      "rs": -15.435991905710223,
+      "relative_volume": 1.2714686195604405,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 14,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:SMCI:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "SMCI",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 86,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 21.65,
+      "planned_entry": 23.26671,
+      "planned_stop": 27.62199744661677,
+      "planned_target": 14.556135106766458,
+      "regime": "MIXED",
+      "rs": -25.0424985897047,
+      "relative_volume": 1.0384161011677757,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 10,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:INTC:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "INTC",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 85,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 51.28,
+      "planned_entry": 52.367580000000004,
+      "planned_stop": 61.79126902914234,
+      "planned_target": 33.52020194171533,
+      "regime": "MIXED",
+      "rs": -31.798419002554233,
+      "relative_volume": 1.351800230363673,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 10,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:META:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "META",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 85,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 560.84003,
+      "planned_entry": 595.18424997,
+      "planned_stop": 640.70001,
+      "planned_target": 504.15272990999995,
+      "regime": "MIXED",
+      "rs": -3.494083372114043,
+      "relative_volume": 1.1812046430290557,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:NOW:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "NOW",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 85,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 87.61,
+      "planned_entry": 88.04186999999999,
+      "planned_stop": 101.94,
+      "planned_target": 60.24560999999997,
+      "regime": "MIXED",
+      "rs": -35.65356947171762,
+      "relative_volume": 0.9091697142361955,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:PLTR:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "PLTR",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 85,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 143.49001,
+      "planned_entry": 153.0468,
+      "planned_stop": 169.48271858485867,
+      "planned_target": 120.17496283028262,
+      "regime": "MIXED",
+      "rs": -17.83794077599079,
+      "relative_volume": 1.4643037769784908,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:SHOP:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "SHOP",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 85,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 123.72,
+      "planned_entry": 131.32854999,
+      "planned_stop": 150.33,
+      "planned_target": 93.32564996999997,
+      "regime": "MIXED",
+      "rs": -17.422075313776375,
+      "relative_volume": 1.6915646691854922,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:BAC:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "BAC",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 84,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 47.04,
+      "planned_entry": 48.001949999999994,
+      "planned_stop": 50.9,
+      "planned_target": 42.205849999999984,
+      "regime": "MIXED",
+      "rs": 2.269914466638634,
+      "relative_volume": 1.4141375737225212,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 8,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:MS:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "MS",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 84,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 165.67,
+      "planned_entry": 173.81601999,
+      "planned_stop": 189.31,
+      "planned_target": 142.82805997,
+      "regime": "MIXED",
+      "rs": 2.0944000368458893,
+      "relative_volume": 1.6211597333252437,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 8,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:OUST:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "OUST",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 84,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 23.8,
+      "planned_entry": 28.071900000000003,
+      "planned_stop": 33.699948539411515,
+      "planned_target": 16.815802921176978,
+      "regime": "MIXED",
+      "rs": -10.606389620745349,
+      "relative_volume": 1.4761935023566082,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 20,
+        "Relative strength": 17,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:TEM:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "TEM",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 84,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 54.04,
+      "planned_entry": 59.35059,
+      "planned_stop": 71.09746277598522,
+      "planned_target": 35.85684444802955,
+      "regime": "MIXED",
+      "rs": -10.844966228885255,
+      "relative_volume": 1.111678022425654,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:BBAI:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "BBAI",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 83,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 1.58,
+      "planned_entry": 1.7082899999999999,
+      "planned_stop": 2.0215907832636604,
+      "planned_target": 1.0816884334726788,
+      "regime": "MIXED",
+      "rs": -16.93628451597109,
+      "relative_volume": 0.8419858803812478,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:HPE:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "HPE",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 83,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 40.91,
+      "planned_entry": 43.847108999999996,
+      "planned_stop": 50.20461765858224,
+      "planned_target": 31.132091682835515,
+      "regime": "MIXED",
+      "rs": -18.603657323979228,
+      "relative_volume": 1.4636260069302347,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:LRCX:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "LRCX",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 83,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 183.27,
+      "planned_entry": 197.87193999,
+      "planned_stop": 227.1414925795259,
+      "planned_target": 139.33283481094816,
+      "regime": "MIXED",
+      "rs": -11.120084538851582,
+      "relative_volume": 1.7347271628565182,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 12,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:MU:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "MU",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 83,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 594.51001,
+      "planned_entry": 666.21312,
+      "planned_stop": 777.5130508999503,
+      "planned_target": 443.6132582000995,
+      "regime": "MIXED",
+      "rs": -23.02149115820168,
+      "relative_volume": 1.7497823421758676,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:TGT:LONG:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "TGT",
+      "side": "LONG",
+      "status": "WATCH",
+      "score": 83,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 165.83,
+      "planned_entry": 172.08190999999997,
+      "planned_stop": 156.14,
+      "planned_target": 203.96572999999992,
+      "regime": "MIXED",
+      "rs": 18.552227724676975,
+      "relative_volume": 1.4928391635364706,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 8,
+        "Structure": 0,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:WMT:LONG:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "WMT",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 83,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 127.95,
+      "planned_entry": 129.97986000999998,
+      "planned_stop": 123.27,
+      "planned_target": 143.39958002999995,
+      "regime": "MIXED",
+      "rs": 15.954769043249485,
+      "relative_volume": 1.7992777134556188,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 14,
+        "Relative strength": 20,
+        "Volume": 8,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:AXP:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "AXP",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 82,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 301.70001,
+      "planned_entry": 309.10059,
+      "planned_stop": 322.432614442177,
+      "planned_target": 282.43654111564604,
+      "regime": "MIXED",
+      "rs": 5.554016917376947,
+      "relative_volume": 1.2257711811229886,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 5,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:COIN:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "COIN",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 82,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 101.97,
+      "planned_entry": 108.6912,
+      "planned_stop": 124.96963328463758,
+      "planned_target": 76.13433343072482,
+      "regime": "MIXED",
+      "rs": -28.761371253694957,
+      "relative_volume": 1.5337838556155228,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 12,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 0
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:COST:LONG:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "COST",
+      "side": "LONG",
+      "status": "WATCH",
+      "score": 82,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 1102.15002,
+      "planned_entry": 1124.79371004,
+      "planned_stop": 1083.15002,
+      "planned_target": 1208.0810901199998,
+      "regime": "MIXED",
+      "rs": 19.244596603531082,
+      "relative_volume": 1.6174407279426737,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 8,
+        "Structure": 3,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:HOOD:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "HOOD",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 82,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 62.17,
+      "planned_entry": 67.18275,
+      "planned_stop": 76.58822277710027,
+      "planned_target": 48.371804445799455,
+      "regime": "MIXED",
+      "rs": -25.374139947630393,
+      "relative_volume": 1.3196876747058528,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 12,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 0
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:MSTR:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "MSTR",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 82,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 77.8,
+      "planned_entry": 85.93397999999999,
+      "planned_stop": 105.79,
+      "planned_target": 46.22193999999996,
+      "regime": "MIXED",
+      "rs": -37.48403492521158,
+      "relative_volume": 1.867108420361125,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 12,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 0
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:NVDA:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "NVDA",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 82,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 125.53,
+      "planned_entry": 145.56429999000002,
+      "planned_stop": 164.83387349499006,
+      "planned_target": 107.02515298001995,
+      "regime": "MIXED",
+      "rs": -31.263891630641382,
+      "relative_volume": 2.179965255123727,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 12,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 0
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:SOUN:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "SOUN",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 82,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 2.61,
+      "planned_entry": 2.8821149999999998,
+      "planned_stop": 3.385,
+      "planned_target": 1.8763449999999997,
+      "regime": "MIXED",
+      "rs": -31.851581661600925,
+      "relative_volume": 1.323568878759256,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 12,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 0
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:QCOM:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "QCOM",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 81,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 149.94,
+      "planned_entry": 158.41143999,
+      "planned_stop": 175.22596065310793,
+      "planned_target": 124.78239866378411,
+      "regime": "MIXED",
+      "rs": -5.531291414677253,
+      "relative_volume": 1.5024928368036048,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 20,
+        "Relative strength": 12,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:MRVL:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "MRVL",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 80,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 122.28,
+      "planned_entry": 135.20466,
+      "planned_stop": 164.1080606680419,
+      "planned_target": 77.39785866391617,
+      "regime": "MIXED",
+      "rs": -37.25617655702717,
+      "relative_volume": 1.2261167169646847,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:UBER:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "UBER",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 80,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 63.47,
+      "planned_entry": 65.26467,
+      "planned_stop": 70.89,
+      "planned_target": 54.014009999999985,
+      "regime": "MIXED",
+      "rs": 4.389361072449649,
+      "relative_volume": 1.5030581175159103,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 0,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:AMBA:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "AMBA",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 79,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 53.07,
+      "planned_entry": 51.28866,
+      "planned_stop": 62.25,
+      "planned_target": 29.36598,
+      "regime": "MIXED",
+      "rs": -10.963548938710177,
+      "relative_volume": 1.6061879040713731,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 12,
+        "Volume": 15,
+        "Structure": 0,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:AMD:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "AMD",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 79,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 424.39001,
+      "planned_entry": 432.86669000999996,
+      "planned_stop": 555.01001,
+      "planned_target": 188.58005002999994,
+      "regime": "MIXED",
+      "rs": -8.647658037281358,
+      "relative_volume": 1.6537851780866135,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 20,
+        "Relative strength": 12,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:C:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "C",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 79,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 110.62,
+      "planned_entry": 114.7851,
+      "planned_stop": 123.87,
+      "planned_target": 96.61529999999999,
+      "regime": "MIXED",
+      "rs": 1.445211692040782,
+      "relative_volume": 1.6589316380396273,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 11,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:SLV:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "SLV",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 79,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 36.97,
+      "planned_entry": 39.55041000000001,
+      "planned_stop": 43.3,
+      "planned_target": 32.051230000000025,
+      "regime": "MIXED",
+      "rs": -14.88546579982849,
+      "relative_volume": 2.2127973380571375,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 12,
+        "Relative strength": 12,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 5
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:CDNS:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "CDNS",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 78,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 281.57999,
+      "planned_entry": 301.94775,
+      "planned_stop": 327.84593320289383,
+      "planned_target": 250.1513835942123,
+      "regime": "MIXED",
+      "rs": -1.798424873936355,
+      "relative_volume": 1.2235268273023523,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 8,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:UNH:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "UNH",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 78,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 339.85001,
+      "planned_entry": 324.34533999,
+      "planned_stop": 415.19,
+      "planned_target": 142.65601997000005,
+      "regime": "MIXED",
+      "rs": -9.48173191438707,
+      "relative_volume": 1.879457822960195,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 15,
+        "Structure": 0,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:ADI:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "ADI",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 77,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 345.92001,
+      "planned_entry": 354.36528000000004,
+      "planned_stop": 395.45001,
+      "planned_target": 272.1958200000001,
+      "regime": "MIXED",
+      "rs": -2.313307575556367,
+      "relative_volume": 1.945605590569641,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 20,
+        "Relative strength": 8,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:ASML:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "ASML",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 77,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 1266.21997,
+      "planned_entry": 1350.4282499699998,
+      "planned_stop": 1473.959661582885,
+      "planned_target": 1103.3654267442294,
+      "regime": "MIXED",
+      "rs": -10.103195878039584,
+      "relative_volume": 1.758374875505728,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 12,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 7
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:GLD:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "GLD",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 77,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 322.87,
+      "planned_entry": 334.71494000999996,
+      "planned_stop": 356.53,
+      "planned_target": 291.08482002999995,
+      "regime": "MIXED",
+      "rs": -2.6989925954805094,
+      "relative_volume": 2.2526672943706587,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 12,
+        "Relative strength": 8,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:TSLA:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "TSLA",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 77,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 345.82001,
+      "planned_entry": 347.25240999,
+      "planned_stop": 393.60001,
+      "planned_target": 254.55720996999997,
+      "regime": "MIXED",
+      "rs": 2.139362812485557,
+      "relative_volume": 1.252439145686678,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 20,
+        "Relative strength": 8,
+        "Volume": 12,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:IAI:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "IAI",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 76,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 165.75,
+      "planned_entry": 171.48834,
+      "planned_stop": 182.69,
+      "planned_target": 149.08502,
+      "regime": "MIXED",
+      "rs": 2.738658360704549,
+      "relative_volume": 1.8520854578929475,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 8,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:JPM:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "JPM",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 76,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 310.53,
+      "planned_entry": 317.11256001,
+      "planned_stop": 346.51999,
+      "planned_target": 258.29770002999993,
+      "regime": "MIXED",
+      "rs": 2.8835500627134247,
+      "relative_volume": 1.7820266284722537,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 8,
+        "Volume": 15,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-20:MRK:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-20",
+      "recorded_at": "2026-11-20T23:26:34.676Z",
+      "ticker": "MRK",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 76,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 133.72,
+      "planned_entry": 131.22864,
+      "planned_stop": 149.23,
+      "planned_target": 95.22592000000006,
+      "regime": "MIXED",
+      "rs": 1.2812273166525334,
+      "relative_volume": 1.6343935418876712,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 20,
+        "Relative strength": 11,
+        "Volume": 15,
+        "Structure": 3,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
       "id": "2026-11-19:NKE:SHORT:34a25d49cde7",
       "signal_date": "2026-11-19",
       "recorded_at": "2026-11-19T23:24:22.222Z",
@@ -27,7 +2692,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 34.135,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -68,7 +2737,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 1338.30005,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -109,7 +2782,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 221.27,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -150,7 +2827,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 311.23001,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -191,7 +2872,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 826.48999,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -232,7 +2917,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 58.34,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -273,7 +2962,11 @@
         "Structure": 10,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 154.05,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -314,7 +3007,11 @@
         "Structure": 10,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 528.41998,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -355,7 +3052,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 22.3,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -396,7 +3097,11 @@
         "Structure": 10,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 87.335,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -437,7 +3142,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 7.14,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -478,7 +3187,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 37.97,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -519,7 +3232,11 @@
         "Structure": 10,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 13.23,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -560,7 +3277,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 65.77,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -601,7 +3322,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 339.94,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -642,7 +3367,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 274.5,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -683,7 +3412,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 14.98,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -724,7 +3457,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 7.86,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -765,7 +3502,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 161,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -806,7 +3547,11 @@
         "Structure": 3,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 1102.04004,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -847,7 +3592,11 @@
         "Structure": 0,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 127.285,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -888,7 +3637,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 106.88,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -929,7 +3682,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 15.51,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -970,7 +3727,11 @@
         "Structure": 3,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 67.93,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1011,7 +3772,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 173.07001,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1052,7 +3817,11 @@
         "Structure": 3,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 170,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1093,7 +3862,11 @@
         "Structure": 10,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 56,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1134,7 +3907,11 @@
         "Structure": 6,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 108.475,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1175,7 +3952,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 1.32,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1216,7 +3997,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 326.97501,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1257,7 +4042,11 @@
         "Structure": 10,
         "Risk": 2
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 143.52,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1298,7 +4087,11 @@
         "Structure": 10,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 129.42999,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1339,7 +4132,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 134.33,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1380,7 +4177,11 @@
         "Structure": 3,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 24.965,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1421,7 +4222,11 @@
         "Structure": 6,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 1.69,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1462,7 +4267,11 @@
         "Structure": 10,
         "Risk": 0
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 86.31,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1503,7 +4312,11 @@
         "Structure": 0,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 42.4,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1544,7 +4357,11 @@
         "Structure": 0,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 303.81,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1585,7 +4402,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 113.97,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1626,7 +4447,11 @@
         "Structure": 10,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 359.04001,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1667,7 +4492,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 48.45,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1749,7 +4578,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 87.085,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1790,7 +4623,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 183.31,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1831,7 +4668,11 @@
         "Structure": 3,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 23.1,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1872,7 +4713,11 @@
         "Structure": 0,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 57.96,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1913,7 +4758,11 @@
         "Structure": 10,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 237.375,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -1995,7 +4844,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 170.96001,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -2036,7 +4889,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-20",
+        "open": 319.89001,
+        "observed_at": "2026-11-20T23:26:34.676Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -2084,8 +4941,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 20.72,
+          "return_pct": 14.69740634005764,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2129,8 +4990,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 77.8,
+          "return_pct": 16.45189003436427,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2174,8 +5039,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 165.83,
+          "return_pct": -0.6827573815655463,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2219,8 +5088,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 23.27,
+          "return_pct": 15.749456915278792,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2264,8 +5137,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 1355,
+          "return_pct": 4.87222823824448,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2309,8 +5186,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 217.71001,
+          "return_pct": 3.6254893149840317,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2354,8 +5235,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 12.98,
+          "return_pct": 19.528828270303777,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2399,8 +5284,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 101.97,
+          "return_pct": 10.89653967144355,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2444,8 +5333,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 6.52,
+          "return_pct": 17.935808684707368,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2489,8 +5382,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 322.87,
+          "return_pct": 5.004707543839004,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2534,8 +5431,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 36.97,
+          "return_pct": 9.365040451090955,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2579,8 +5480,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 14.6,
+          "return_pct": 14.218566392479437,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2624,8 +5529,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 47.04,
+          "return_pct": 4.603528696004878,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2669,8 +5578,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 87.61,
+          "return_pct": 3.72527472527473,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2714,8 +5627,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 103.13,
+          "return_pct": -4.9930907415937416,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2759,8 +5676,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 155.89,
+          "return_pct": 4.829059829059846,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2804,8 +5725,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 180.62,
+          "return_pct": 5.745446955069666,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2849,8 +5774,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 1.19,
+          "return_pct": 21.19205298013246,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2894,8 +5823,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 56.73,
+          "return_pct": 5.3237650200267055,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2939,8 +5872,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 127.95,
+          "return_pct": 3.4859268845033986,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -2984,8 +5921,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 125.53,
+          "return_pct": 17.91132618362542,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3029,8 +5970,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 339.85001,
+          "return_pct": 3.2124825563181747,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3074,8 +6019,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 1.58,
+          "return_pct": 11.235955056179769,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3119,8 +6068,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 28.46,
+          "return_pct": -12.214682294879708,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3164,8 +6117,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 7.16,
+          "return_pct": 16.72481972551757,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3209,8 +6166,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 342.56,
+          "return_pct": -2.9327590603836717,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3254,8 +6215,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 246.82001,
+          "return_pct": -9.443788523627827,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3299,8 +6264,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 123.72,
+          "return_pct": 12.255319148936172,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3344,8 +6313,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 110.62,
+          "return_pct": 7.073252688172049,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3389,8 +6362,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 281.57999,
+          "return_pct": 10.632220725917884,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3434,8 +6411,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 220.84,
+          "return_pct": 0.19054532256601586,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3479,8 +6460,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 12.48,
+          "return_pct": 12.605042016806712,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3524,8 +6509,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 152.60001,
+          "return_pct": 8.213280803584855,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3569,8 +6558,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 309.62,
+          "return_pct": -6.041938518496027,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3614,8 +6607,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 310.53,
+          "return_pct": 4.856302469514073,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -3659,8 +6656,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 133.72,
+          "return_pct": 3.9160738664942074,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "5": {
           "state": "pending",
@@ -7044,8 +10045,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 1.58,
+          "return_pct": 15.053763440860212,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7093,8 +10098,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 101.97,
+          "return_pct": 14.533568016092534,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7142,8 +10151,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 77.8,
+          "return_pct": 25.004819741661844,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7191,8 +10204,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 1102.15002,
+          "return_pct": -0.8126522789893453,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7240,8 +10257,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 1347.10999,
+          "return_pct": -7.335512295786762,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7289,8 +10310,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 170.36,
+          "return_pct": -7.553722596049484,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7338,8 +10363,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 54,
+          "return_pct": 15.373765867418898,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7387,8 +10416,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 322.87,
+          "return_pct": 8.827266822918133,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7436,8 +10469,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 56.73,
+          "return_pct": 9.794879949117508,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7485,8 +10522,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 342.56,
+          "return_pct": -4.079746870887346,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7534,8 +10575,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 12.98,
+          "return_pct": 20.901889092017058,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7583,8 +10628,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 7.16,
+          "return_pct": 22.342733188720175,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7632,8 +10681,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 152.60001,
+          "return_pct": 10.540502989799517,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7681,8 +10734,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 309.62,
+          "return_pct": -6.518520169032338,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7730,8 +10787,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 62.17,
+          "return_pct": 15.918312144982416,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7779,8 +10840,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 127.95,
+          "return_pct": -1.4480474466610271,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7828,8 +10893,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 1355,
+          "return_pct": 8.692722371967655,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7877,8 +10946,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 339.04001,
+          "return_pct": -2.7200677929550054,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7926,8 +10999,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 53.29,
+          "return_pct": -10.255978443920522,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -7975,8 +11052,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 265.29001,
+          "return_pct": 9.70695006977298,
+          "result": "win",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -8024,8 +11105,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 190.17,
+          "return_pct": -4.757850453247858,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -8073,8 +11158,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 103.13,
+          "return_pct": -4.234376450923949,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -8122,8 +11211,12 @@
           "observed_at": "2026-11-17T23:29:14.064Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-20",
+          "exit_close": 263.75,
+          "return_pct": -10.432302102081714,
+          "result": "loss",
+          "observed_at": "2026-11-20T23:26:34.676Z"
         },
         "10": {
           "state": "pending",
@@ -8213,10 +11306,30 @@
       ],
       "lagging_symbols": [],
       "signals_recorded": 50
+    },
+    {
+      "date": "2026-11-20",
+      "model_hash": "34a25d49cde7",
+      "first_recorded_at": "2026-11-20T23:26:34.676Z",
+      "last_recorded_at": "2026-11-20T23:26:34.676Z",
+      "downloaded": 124,
+      "requested": 127,
+      "missing_symbols": [
+        "SPCX",
+        "SQ",
+        "VCX"
+      ],
+      "lagging_symbols": [
+        "AVGO",
+        "CMPS",
+        "CRDO",
+        "DELL"
+      ],
+      "signals_recorded": 65
     }
   ],
-  "updated_at": "2026-11-19T23:24:22.222Z",
-  "last_scan_session": "2026-11-19",
+  "updated_at": "2026-11-20T23:26:34.676Z",
+  "last_scan_session": "2026-11-20",
   "model_hash": "34a25d49cde7",
   "horizons": [
     2,
