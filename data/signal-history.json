@@ -16534,7 +16534,7 @@
       "date": "2026-11-25",
       "model_hash": "34a25d49cde7",
       "first_recorded_at": "2026-11-25T23:28:47.401Z",
-      "last_recorded_at": "2026-11-25T23:28:47.401Z",
+      "last_recorded_at": "2026-11-26T23:33:08.535Z",
       "downloaded": 124,
       "requested": 127,
       "missing_symbols": [
@@ -16546,7 +16546,7 @@
       "signals_recorded": 21
     }
   ],
-  "updated_at": "2026-11-25T23:28:47.401Z",
+  "updated_at": "2026-11-26T23:33:08.535Z",
   "last_scan_session": "2026-11-25",
   "model_hash": "34a25d49cde7",
   "horizons": [
