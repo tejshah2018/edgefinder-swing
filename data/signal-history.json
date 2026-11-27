@@ -3,6 +3,621 @@
   "started_at": "2026-11-16T20:20:34.195Z",
   "signals": [
     {
+      "id": "2026-11-27:AAPL:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "AAPL",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 88,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 358.54001,
+      "planned_entry": 361.19081998999997,
+      "planned_stop": 340.56,
+      "planned_target": 402.4524599699999,
+      "regime": "MIXED",
+      "rs": 8.172402205373718,
+      "relative_volume": 0.44874993398746355,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:AMGN:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "AMGN",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 88,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 474.07999,
+      "planned_entry": 476.28580999999997,
+      "planned_stop": 434.51001,
+      "planned_target": 559.8374099999999,
+      "regime": "MIXED",
+      "rs": 8.82618991585109,
+      "relative_volume": 0.39681932498175876,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:GILD:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "GILD",
+      "side": "LONG",
+      "status": "WATCH",
+      "score": 85,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 177,
+      "planned_entry": 179.85966999,
+      "planned_stop": 165.8,
+      "planned_target": 207.97900996999994,
+      "regime": "MIXED",
+      "rs": 12.211905316146087,
+      "relative_volume": 0.4695603877145723,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 3,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:WMT:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "WMT",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 84,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 133.13,
+      "planned_entry": 133.32318999999998,
+      "planned_stop": 125.84,
+      "planned_target": 148.28956999999994,
+      "regime": "MIXED",
+      "rs": 15.132239451056284,
+      "relative_volume": 0.43978145930873985,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:MA:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "MA",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 82,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 666.96002,
+      "planned_entry": 668.9783099999999,
+      "planned_stop": 624.10999,
+      "planned_target": 758.7149499999995,
+      "regime": "MIXED",
+      "rs": 10.251716676910183,
+      "relative_volume": 0.5326704138430627,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 14,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:V:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "V",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 79,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 429.56,
+      "planned_entry": 431.4209799899999,
+      "planned_stop": 401.19,
+      "planned_target": 491.88293996999977,
+      "regime": "MIXED",
+      "rs": 10.160900477909053,
+      "relative_volume": 0.514967592477507,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 14,
+        "Relative strength": 20,
+        "Volume": 4,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:COST:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "COST",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 78,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 1097.81006,
+      "planned_entry": 1099.098,
+      "planned_stop": 1055.39171,
+      "planned_target": 1186.5105799999997,
+      "regime": "MIXED",
+      "rs": 18.810944258873263,
+      "relative_volume": 0.5151801635529133,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 10,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:PYPL:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "PYPL",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 78,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 59.14,
+      "planned_entry": 59.724664999999995,
+      "planned_stop": 53.1,
+      "planned_target": 72.97399499999997,
+      "regime": "MIXED",
+      "rs": 9.179779796629806,
+      "relative_volume": 0.5623140176757039,
+      "factors": {
+        "Trend": 21,
+        "Momentum": 14,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:TGT:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "TGT",
+      "side": "LONG",
+      "status": "WATCH",
+      "score": 78,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 171.97,
+      "planned_entry": 176.90672999999998,
+      "planned_stop": 163.67,
+      "planned_target": 203.38018999999997,
+      "regime": "MIXED",
+      "rs": 19.404192579819203,
+      "relative_volume": 0.3512585897289684,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 0,
+        "Structure": 3,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:PDD:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "PDD",
+      "side": "LONG",
+      "status": "WATCH",
+      "score": 77,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 88.43,
+      "planned_entry": 88.25816999999999,
+      "planned_stop": 82.75650523564109,
+      "planned_target": 99.2614995287178,
+      "regime": "MIXED",
+      "rs": 16.875673657886846,
+      "relative_volume": 0.8397358031169113,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 0,
+        "Structure": 10,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:HD:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "HD",
+      "side": "LONG",
+      "status": "WATCH",
+      "score": 76,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 362.14999,
+      "planned_entry": 364.01363998999994,
+      "planned_stop": 338.10999,
+      "planned_target": 415.82093996999987,
+      "regime": "MIXED",
+      "rs": 15.416974719010623,
+      "relative_volume": 0.600305749800603,
+      "factors": {
+        "Trend": 17,
+        "Momentum": 16,
+        "Relative strength": 20,
+        "Volume": 7,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:SBUX:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "SBUX",
+      "side": "LONG",
+      "status": "SETUP",
+      "score": 76,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 108.8,
+      "planned_entry": 110.26015,
+      "planned_stop": 102.68,
+      "planned_target": 125.42044999999997,
+      "regime": "MIXED",
+      "rs": 9.06173915892774,
+      "relative_volume": 0.49363874759296356,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 14,
+        "Relative strength": 17,
+        "Volume": 4,
+        "Structure": 6,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:ABNB:LONG:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "ABNB",
+      "side": "LONG",
+      "status": "WATCH",
+      "score": 75,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 179.16,
+      "planned_entry": 189.189,
+      "planned_stop": 166,
+      "planned_target": 235.56699999999998,
+      "regime": "MIXED",
+      "rs": 12.970228011442519,
+      "relative_volume": 1.0973985957074448,
+      "factors": {
+        "Trend": 21,
+        "Momentum": 14,
+        "Relative strength": 20,
+        "Volume": 10,
+        "Structure": 0,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:GS:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "GS",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 75,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 812.87,
+      "planned_entry": 771.96725001,
+      "planned_stop": 834.53998,
+      "planned_target": 646.8217900300001,
+      "regime": "MIXED",
+      "rs": -7.04645413679178,
+      "relative_volume": 0.48915597623383994,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 0,
+        "Structure": 0,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
+      "id": "2026-11-27:MS:SHORT:34a25d49cde7",
+      "signal_date": "2026-11-27",
+      "recorded_at": "2026-11-27T23:30:33.804Z",
+      "ticker": "MS",
+      "side": "SHORT",
+      "status": "WATCH",
+      "score": 75,
+      "model_hash": "34a25d49cde7",
+      "origin": "prospective",
+      "signal_close": 170.88,
+      "planned_entry": 162.41742000000002,
+      "planned_stop": 175.06,
+      "planned_target": 137.13226000000006,
+      "regime": "MIXED",
+      "rs": -4.181191967539267,
+      "relative_volume": 0.507074061530555,
+      "factors": {
+        "Trend": 25,
+        "Momentum": 20,
+        "Relative strength": 20,
+        "Volume": 0,
+        "Structure": 0,
+        "Risk": 10
+      },
+      "entry": null,
+      "outcomes": {
+        "2": {
+          "state": "pending",
+          "reason": "Awaiting session 2"
+        },
+        "5": {
+          "state": "pending",
+          "reason": "Awaiting session 5"
+        },
+        "10": {
+          "state": "pending",
+          "reason": "Awaiting session 10"
+        }
+      }
+    },
+    {
       "id": "2026-11-25:GS:SHORT:34a25d49cde7",
       "signal_date": "2026-11-25",
       "recorded_at": "2026-11-25T23:28:47.401Z",
@@ -27,7 +642,11 @@
         "Structure": 3,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 818.59998,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -68,7 +687,11 @@
         "Structure": 3,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 171.89,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -109,7 +732,11 @@
         "Structure": 6,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 358.44,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -150,7 +777,11 @@
         "Structure": 6,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 89.98,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -191,7 +822,11 @@
         "Structure": 10,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 36.25,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -232,7 +867,11 @@
         "Structure": 6,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 660,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -273,7 +912,11 @@
         "Structure": 3,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 172,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -314,7 +957,11 @@
         "Structure": 6,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 468,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -355,7 +1002,11 @@
         "Structure": 10,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 360,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -396,7 +1047,11 @@
         "Structure": 3,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 108,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -437,7 +1092,11 @@
         "Structure": 0,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 26.5,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -478,7 +1137,11 @@
         "Structure": 3,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 174.12,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -519,7 +1182,11 @@
         "Structure": 3,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 193.44,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -560,7 +1227,11 @@
         "Structure": 0,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 35.09,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -601,7 +1272,11 @@
         "Structure": 6,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 159.765,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -642,7 +1317,11 @@
         "Structure": 6,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 39.565,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -683,7 +1362,11 @@
         "Structure": 6,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 131.86,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -724,7 +1407,11 @@
         "Structure": 0,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 171.17999,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -765,7 +1452,11 @@
         "Structure": 0,
         "Risk": 5
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 9.745,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -806,7 +1497,11 @@
         "Structure": 0,
         "Risk": 7
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 13.54,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -847,7 +1542,11 @@
         "Structure": 3,
         "Risk": 10
       },
-      "entry": null,
+      "entry": {
+        "date": "2026-11-27",
+        "open": 423.745,
+        "observed_at": "2026-11-27T23:30:33.804Z"
+      },
       "outcomes": {
         "2": {
           "state": "pending",
@@ -895,8 +1594,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 35.24,
+          "return_pct": -4.693998811645894,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -940,8 +1643,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 171.97,
+          "return_pct": -1.8380044523089167,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -985,8 +1692,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 177,
+          "return_pct": -0.8125525357242869,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1030,8 +1741,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 170.88,
+          "return_pct": -4.220535239050038,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1075,8 +1790,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 81.62,
+          "return_pct": -9.866738457396696,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1120,8 +1839,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 20.85,
+          "return_pct": -12.398921832884092,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1165,8 +1888,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 346,
+          "return_pct": -13.658757188793214,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1210,8 +1937,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 474.0749885231253,
+          "return_pct": 0.2813305129561128,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1255,8 +1986,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 13.88,
+          "return_pct": -10.421638822593483,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1300,8 +2035,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 812.87,
+          "return_pct": -4.302354390804242,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1345,8 +2084,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 88.43,
+          "return_pct": 2.861463301151579,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1390,8 +2133,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 291.88,
+          "return_pct": -3.395779989548564,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1435,8 +2182,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 1097.81006,
+          "return_pct": 0.5320567765567885,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1480,8 +2231,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 36.57,
+          "return_pct": -35.44444444444446,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1525,8 +2280,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 133.13,
+          "return_pct": 0.46030787805613205,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1570,8 +2329,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 39.4,
+          "return_pct": -11.804767309875142,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1615,8 +2378,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 115.57,
+          "return_pct": -17.52084604433597,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1660,8 +2427,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 358.54001,
+          "return_pct": 1.4314812314280445,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1705,8 +2476,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 107.03477088422082,
+          "return_pct": -9.090909090909083,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1750,8 +2525,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 61.875,
+          "return_pct": -8.116372531888882,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1795,8 +2574,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 316.95999,
+          "return_pct": -18.458712917789242,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1840,8 +2623,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 10,
+          "return_pct": -17.647058823529417,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1885,8 +2672,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 50.88,
+          "return_pct": -15.926179084073834,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1930,8 +2721,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 217.2,
+          "return_pct": -7.519435053682244,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -1975,8 +2770,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 334.39999,
+          "return_pct": -5.153919525992268,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -2020,8 +2819,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 1392.38,
+          "return_pct": -0.8982206405693915,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -2065,8 +2868,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 424.54001,
+          "return_pct": -10.877797516837795,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -2110,8 +2917,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 1532.92004,
+          "return_pct": -7.8511030612483435,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -2155,8 +2966,12 @@
       },
       "outcomes": {
         "2": {
-          "state": "pending",
-          "reason": "Awaiting session 2"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 150.49001,
+          "return_pct": -4.4634249618214605,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "5": {
           "state": "pending",
@@ -7255,8 +8070,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 37.32,
+          "return_pct": -9.31458699472758,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7304,8 +8123,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 1532.92004,
+          "return_pct": -14.54232853088513,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7353,8 +8176,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 234.78999,
+          "return_pct": -6.110177611063405,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7402,8 +8229,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 316.39999,
+          "return_pct": -1.6611444378387574,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7451,8 +8282,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 812.87,
+          "return_pct": 1.6479316343565142,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7500,8 +8335,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 60.93,
+          "return_pct": -4.439492629413766,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7549,8 +8388,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 167.89999,
+          "return_pct": -8.990580980201223,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7598,8 +8441,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 561.73999,
+          "return_pct": -6.305592381272196,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7647,8 +8494,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 24.97,
+          "return_pct": -11.973094170403575,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7696,8 +8547,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 92.8,
+          "return_pct": -6.251431188458878,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7745,8 +8600,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 7.58,
+          "return_pct": -6.162464985994398,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7794,8 +8653,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 39.4,
+          "return_pct": -3.7661311561759225,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7843,8 +8706,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 13.37,
+          "return_pct": -1.134644478063529,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7892,8 +8759,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 66.63,
+          "return_pct": -1.3075870457655459,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7941,8 +8812,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 351.41,
+          "return_pct": -3.3741248455609885,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -7990,8 +8865,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 274.95999,
+          "return_pct": -0.16757377049181343,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8039,8 +8918,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 13.88,
+          "return_pct": 7.343124165554071,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8088,8 +8971,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 8.53,
+          "return_pct": -8.731676226896102,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8137,8 +9024,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 167.24001,
+          "return_pct": -3.875782608695655,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8186,8 +9077,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 1128.6499306192113,
+          "return_pct": 2.4146098727600096,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8235,8 +9130,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 133.13,
+          "return_pct": 4.612604117554597,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8284,8 +9183,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 107.04,
+          "return_pct": -0.14970059880241582,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8333,8 +9236,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 15,
+          "return_pct": 3.2882011605415817,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8382,8 +9289,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 67.92,
+          "return_pct": 0.014721036360965112,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8431,8 +9342,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 170.88,
+          "return_pct": 1.2653896535858578,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8480,8 +9395,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 171.97,
+          "return_pct": 1.1588235294117677,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8529,8 +9448,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 61.875,
+          "return_pct": -10.333452211126959,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8578,8 +9501,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 107.13,
+          "return_pct": 1.244469026548678,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8627,8 +9554,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 1.38,
+          "return_pct": -4.545454545454541,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8676,8 +9607,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 334.39999,
+          "return_pct": -2.269245756032623,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8725,8 +9660,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 150.49001,
+          "return_pct": -4.8564729654403616,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8774,8 +9713,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 141.78,
+          "return_pct": -8.818797207674978,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8823,8 +9766,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 141.32001,
+          "return_pct": -5.203610511427059,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8872,8 +9819,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 26.85,
+          "return_pct": -8.048289738430592,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8921,8 +9872,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 1.7,
+          "return_pct": -0.591715976331364,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -8970,8 +9925,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 81.62,
+          "return_pct": 5.433901054339008,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9019,8 +9978,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 36.57,
+          "return_pct": 13.749999999999996,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9068,8 +10031,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 363.48001,
+          "return_pct": -19.640568118231784,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9117,8 +10084,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 115.59,
+          "return_pct": -1.4214266912345286,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9166,8 +10137,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 366.76001,
+          "return_pct": 2.150178193232577,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9215,8 +10190,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 49.07,
+          "return_pct": -1.2796697626418885,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9264,8 +10243,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 115.57,
+          "return_pct": -1.36830102622576,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9313,8 +10296,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 88.43,
+          "return_pct": 1.5386381903777835,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9362,8 +10349,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 198.21001,
+          "return_pct": -8.128312694342931,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9411,8 +10402,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 23.76,
+          "return_pct": -2.857142857142847,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9460,8 +10455,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 35.24,
+          "return_pct": 39.104890271297734,
+          "result": "win",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9509,8 +10508,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 217.2,
+          "return_pct": -8.49921011058452,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9558,8 +10561,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 316.95999,
+          "return_pct": -4.400520276662712,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9607,8 +10614,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 172.57001,
+          "return_pct": -0.9417407029866043,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -9656,8 +10667,12 @@
           "observed_at": "2026-11-23T23:29:52.345Z"
         },
         "5": {
-          "state": "pending",
-          "reason": "Awaiting session 5"
+          "state": "complete",
+          "session_date": "2026-11-27",
+          "exit_close": 322.95999,
+          "return_pct": -0.9596986164088106,
+          "result": "loss",
+          "observed_at": "2026-11-27T23:30:33.804Z"
         },
         "10": {
           "state": "pending",
@@ -16544,10 +17559,25 @@
       ],
       "lagging_symbols": [],
       "signals_recorded": 21
+    },
+    {
+      "date": "2026-11-27",
+      "model_hash": "34a25d49cde7",
+      "first_recorded_at": "2026-11-27T23:30:33.804Z",
+      "last_recorded_at": "2026-11-27T23:30:33.804Z",
+      "downloaded": 124,
+      "requested": 127,
+      "missing_symbols": [
+        "SPCX",
+        "SQ",
+        "VCX"
+      ],
+      "lagging_symbols": [],
+      "signals_recorded": 15
     }
   ],
-  "updated_at": "2026-11-26T23:33:08.535Z",
-  "last_scan_session": "2026-11-25",
+  "updated_at": "2026-11-27T23:30:33.804Z",
+  "last_scan_session": "2026-11-27",
   "model_hash": "34a25d49cde7",
   "horizons": [
     2,
